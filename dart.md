@@ -91,4 +91,39 @@ void add(int a,int b) {
 }
 ```
 
+## Object Oriented Programming
+Dart is an object-oriented language. It supports object-oriented programming features like classes, interfaces, etc.
 
+A class is a blueprint for creating objects. A class definition includes the following −
+
+* Fields
+* Getters and setters
+* Constructors 
+* Functions
+
+Now, let us create a simple class using the above definitions −
+
+```dart
+class Employee {
+   String name;
+   
+   //getter method
+   String get emp_name {
+      return name;
+   }
+   //setter method
+   void set emp_name(String name) {
+      this.name = name;
+   }
+   //function definition
+   void result() {
+      print(name);
+   }
+}
+void main() {
+   //object creation
+   Employee emp = new Employee();
+   emp.name = "employee1";
+   emp.result(); //function call
+}
+```
