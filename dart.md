@@ -36,11 +36,59 @@ Dart language supports the following data types −
 * **Strings** − It represents a sequence of characters. String values are specified in either single or double quotes.
 * **Booleans** − Dart uses the bool keyword to represent Boolean values – true and false.
 * **Lists and Maps** − It is used to represent a collection of objects. A simple List can be defined as below −.
+* **Dynamic** − If the variable type is not defined, then its default type is dynamic. The following example illustrates the dynamic type variable −
 
+**Lists**
+```dart
+void main() {
+   var list = [1,2,3,4,5];
+   print(list);
+}
+```
+**Maps**
+```dart
+void main() {
+   var mapping = {'id': 1,'name':'Dart'};
+   print(mapping);
+}
+```
+**Dynamic**
+```dart
+void main() {
+   dynamic name = "Dart";
+   print(name);
+}
+```
 
+## Decision Making and Loops
 
+A decision making block evaluates a condition before the instructions are executed. Dart supports If, If..else and switch statements.
+Loops are used to repeat a block of code until a specific condition is met. Dart supports for, for..in , while and do..while loops.
 
+Let us understand a simple example about the usage of control statements and loops −
 
+```dart
+void main() {
+   for( var i = 1 ; i <= 10; i++ ) {
+      if(i%2==0) {
+         print(i);
+      }
+   }
+}
+```
 
+## Functions
+A function is a group of statements that together performs a specific task. Let us look into a simple function in Dart as shown here −
+
+```dart
+void main() {
+   add(3,4);
+}
+void add(int a,int b) {
+   int c;
+   c = a+b;
+   print(c);
+}
+```
 
 
