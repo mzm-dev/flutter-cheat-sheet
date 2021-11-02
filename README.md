@@ -34,7 +34,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Hello world!',
-      debugShowCheckedModeBanner: false,
       home: Scaffold(
         body: Center(
           child: Text('Hello world'),
@@ -45,3 +44,5 @@ class MyApp extends StatelessWidget {
 }
 
 ```
+DartPad hide Banner Bar
+> debugShowCheckedModeBanner: false
