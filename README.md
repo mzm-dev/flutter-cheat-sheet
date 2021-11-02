@@ -48,3 +48,6 @@ class MyApp extends StatelessWidget {
 ```
 DartPad hide Banner Bar
 > debugShowCheckedModeBanner: false
+
+**Widget**
+> Remember — Everything’s a widget in Flutter
