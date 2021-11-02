@@ -6,3 +6,13 @@ Flutter and dart cheat sheet
 ```code
 flutter create my_project
 ```
+
+Specify organisation name
+```code
+flutter create --org com.yourorg your_project
+```
+
+## Healthcheck
+```code
+flutter doctor
+```
